@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto Worker", "Auto Worker.csproj", "{B49DF532-F893-4761-8ED7-8811E966E45A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B49DF532-F893-4761-8ED7-8811E966E45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49DF532-F893-4761-8ED7-8811E966E45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49DF532-F893-4761-8ED7-8811E966E45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49DF532-F893-4761-8ED7-8811E966E45A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D079A841-FEE5-4B50-BBAA-30F108644BD6}
+	EndGlobalSection
+EndGlobal

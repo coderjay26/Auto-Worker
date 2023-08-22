@@ -1,0 +1,29 @@
+D:\GitHub\Auto Worker\bin\Debug\net6.0-windows\Auto Worker.exe
+D:\GitHub\Auto Worker\bin\Debug\net6.0-windows\Auto Worker.deps.json
+D:\GitHub\Auto Worker\bin\Debug\net6.0-windows\Auto Worker.runtimeconfig.json
+D:\GitHub\Auto Worker\bin\Debug\net6.0-windows\Auto Worker.dll
+D:\GitHub\Auto Worker\bin\Debug\net6.0-windows\Auto Worker.pdb
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto Worker.csproj.AssemblyReference.cache
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto Worker.csproj.GenerateResource.cache
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto Worker.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto Worker.AssemblyInfoInputs.cache
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto Worker.AssemblyInfo.cs
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto Worker.csproj.CoreCompileInputs.cache
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto Worker.dll
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\refint\Auto Worker.dll
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto Worker.pdb
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto Worker.genruntimeconfig.cache
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\ref\Auto Worker.dll
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.MainView.resources
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Properties.Resources.resources
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms.IdForm.resources
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms.PagasaForm.resources
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms.PlateForm.resources
+D:\GitHub\Auto Worker\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto Worker.csproj.CopyComplete
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms._2x2.TwoneOneWO.resources
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms._2x2.TwoOneW.resources
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms._2x2.TwoW.resources
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms._2x2.TwoWO.resources
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms.PopUp.Croping.resources
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Cropper.CropImageDialog.resources

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "krlqqHmJNfezOrGtB+9UM68aR+UCn5twTZWE8pRvYQUlmBz2HYsug9BeWT06gGtC0t1XMfFLwnxDbB2uFKeAyQ==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\Auto Worker\\Auto Worker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jay Fuego\\.nuget\\packages\\fontawesome.sharp\\6.3.0\\fontawesome.sharp.6.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

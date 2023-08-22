@@ -1,0 +1,2 @@
+# Auto-Worker
+ Auto worker is a desktop app created by C#. Auto-Worker Generator is a powerful and user-friendly application designed specifically for copy center businesses that cater to customers seeking various identification document sizes. This versatile app streamlines the process of generating ID photos in 2x2, 1x1,  passport sizes, and many more features, allowing your customers to quickly and conveniently obtain their required identification materials.
