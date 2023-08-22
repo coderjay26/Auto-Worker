@@ -134,6 +134,7 @@
             x2With1x1OnlyToolStripMenuItem.Name = "x2With1x1OnlyToolStripMenuItem";
             x2With1x1OnlyToolStripMenuItem.Size = new Size(238, 26);
             x2With1x1OnlyToolStripMenuItem.Text = "2x2 with nametag only";
+            x2With1x1OnlyToolStripMenuItem.Click += x2With1x1OnlyToolStripMenuItem_Click;
             // 
             // IdForm
             // 

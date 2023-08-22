@@ -48,7 +48,12 @@ namespace Auto_Worker.Forms
 
         private void twobytwo_Click(object sender, EventArgs e)
         {
-            
+            auto.ShowForm(new TwoWO(), this);
+        }
+
+        private void x2With1x1OnlyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            auto.ShowForm(new TwoW(), this);
         }
     }
 }
