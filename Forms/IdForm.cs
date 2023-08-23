@@ -1,4 +1,5 @@
 ﻿using Auto_Worker.Class;
+using Auto_Worker.Forms._1x1;
 using Auto_Worker.Forms._2x2;
 using System;
 using System.Collections.Generic;
@@ -33,7 +34,9 @@ namespace Auto_Worker.Forms
 
         private void btn1x1_Click(object sender, EventArgs e)
         {
-
+            context1x1.Width = btn1x1.Width;
+            Point point = btn1x1.PointToScreen(new Point(0, btn1x1.Height));
+            context1x1.Show(point);
         }
 
         private void twobytwoonebyonename_Click(object sender, EventArgs e)
@@ -54,6 +57,16 @@ namespace Auto_Worker.Forms
         private void x2With1x1OnlyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             auto.ShowForm(new TwoW(), this);
+        }
+
+        private void x1WoNameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            auto.ShowForm(new OnebyOne(), this);
+        }
+
+        private void passportWONametagToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

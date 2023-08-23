@@ -4,6 +4,9 @@
     <Compile Update="AutoWork.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\1x1\OnebyoneWO.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\2x2\TwoneOneWO.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -37,7 +37,14 @@
             twobytwoonebyonename = new ToolStripMenuItem();
             twobytwo = new ToolStripMenuItem();
             x2With1x1OnlyToolStripMenuItem = new ToolStripMenuItem();
+            context1x1 = new ContextMenuStrip(components);
+            x1WoNameToolStripMenuItem = new ToolStripMenuItem();
+            x1WithNametagToolStripMenuItem = new ToolStripMenuItem();
+            contextPassport = new ContextMenuStrip(components);
+            passportWONametagToolStripMenuItem = new ToolStripMenuItem();
             context2x2.SuspendLayout();
+            context1x1.SuspendLayout();
+            contextPassport.SuspendLayout();
             SuspendLayout();
             // 
             // btn2x2
@@ -100,7 +107,7 @@
             context2x2.Items.AddRange(new ToolStripItem[] { twobytwoandonebyone, twobytwoonebyonename, twobytwo, x2With1x1OnlyToolStripMenuItem });
             context2x2.Name = "contextMenuStrip1";
             context2x2.ShowImageMargin = false;
-            context2x2.Size = new Size(239, 130);
+            context2x2.Size = new Size(239, 108);
             // 
             // twobytwoandonebyone
             // 
@@ -136,6 +143,40 @@
             x2With1x1OnlyToolStripMenuItem.Text = "2x2 with nametag only";
             x2With1x1OnlyToolStripMenuItem.Click += x2With1x1OnlyToolStripMenuItem_Click;
             // 
+            // context1x1
+            // 
+            context1x1.Items.AddRange(new ToolStripItem[] { x1WoNameToolStripMenuItem, x1WithNametagToolStripMenuItem });
+            context1x1.Name = "context1x1";
+            context1x1.ShowImageMargin = false;
+            context1x1.Size = new Size(144, 48);
+            // 
+            // x1WoNameToolStripMenuItem
+            // 
+            x1WoNameToolStripMenuItem.Name = "x1WoNameToolStripMenuItem";
+            x1WoNameToolStripMenuItem.Size = new Size(143, 22);
+            x1WoNameToolStripMenuItem.Text = "1x1 w/o nametag";
+            x1WoNameToolStripMenuItem.Click += x1WoNameToolStripMenuItem_Click;
+            // 
+            // x1WithNametagToolStripMenuItem
+            // 
+            x1WithNametagToolStripMenuItem.Name = "x1WithNametagToolStripMenuItem";
+            x1WithNametagToolStripMenuItem.Size = new Size(143, 22);
+            x1WithNametagToolStripMenuItem.Text = "1x1 with nametag";
+            // 
+            // contextPassport
+            // 
+            contextPassport.Items.AddRange(new ToolStripItem[] { passportWONametagToolStripMenuItem });
+            contextPassport.Name = "contextPassport";
+            contextPassport.ShowImageMargin = false;
+            contextPassport.Size = new Size(173, 48);
+            // 
+            // passportWONametagToolStripMenuItem
+            // 
+            passportWONametagToolStripMenuItem.Name = "passportWONametagToolStripMenuItem";
+            passportWONametagToolStripMenuItem.Size = new Size(172, 22);
+            passportWONametagToolStripMenuItem.Text = "Passport W/O nametag";
+            passportWONametagToolStripMenuItem.Click += passportWONametagToolStripMenuItem_Click;
+            // 
             // IdForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -147,6 +188,8 @@
             Name = "IdForm";
             Text = "IdForm";
             context2x2.ResumeLayout(false);
+            context1x1.ResumeLayout(false);
+            contextPassport.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -160,5 +203,10 @@
         private ToolStripMenuItem twobytwoonebyonename;
         private ToolStripMenuItem twobytwo;
         private ToolStripMenuItem x2With1x1OnlyToolStripMenuItem;
+        private ContextMenuStrip context1x1;
+        private ToolStripMenuItem x1WoNameToolStripMenuItem;
+        private ToolStripMenuItem x1WithNametagToolStripMenuItem;
+        private ContextMenuStrip contextPassport;
+        private ToolStripMenuItem passportWONametagToolStripMenuItem;
     }
 }
