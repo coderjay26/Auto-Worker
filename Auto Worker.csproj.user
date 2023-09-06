@@ -25,6 +25,9 @@
     <Compile Update="Forms\PagasaForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Passport\PassportWO.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\PlateForm.cs">
       <SubType>Form</SubType>
     </Compile>

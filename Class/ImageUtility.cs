@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing.Printing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,7 +11,29 @@ namespace Auto_Worker.Class
 {
         internal class ImageUtility
         {
-            public static Image CropImage(Image sourceImage)
+        public static Image GetEmbeddedImage(string resourceName)
+        {
+            // Get the current assembly.
+            Assembly assembly = Assembly.GetExecutingAssembly();
+
+            // Build the full resource name.
+            string fullResourceName = assembly.GetName().Name + "." + resourceName;
+
+            // Load the embedded image.
+            using (Stream stream = assembly.GetManifestResourceStream(fullResourceName))
+            {
+                if (stream != null)
+                {
+                    return Image.FromStream(stream);
+                }
+                else
+                {
+                    // The resource was not found.
+                    return null;
+                }
+            }
+        }
+        public static Image CropImage(Image sourceImage)
             {
                 DialogResult result;
 
@@ -31,12 +54,14 @@ namespace Auto_Worker.Class
 
             public static void PrintImage(Image imageToPrint)
             {
+
                 using (PrintDialog printDialog = new PrintDialog())
                 {
                     if (printDialog.ShowDialog() == DialogResult.OK)
                     {
+                   
                     // Create and configure the print document
-                    PrintDocument printDocument = new PrintDocument();
+                         PrintDocument printDocument = new PrintDocument();
                         printDocument.PrintPage += (sender, e) =>
                         {
                             e.Graphics.DrawImage(imageToPrint, 0, 0);
@@ -45,8 +70,8 @@ namespace Auto_Worker.Class
                         // Set printer resolution (print quality)
                         printDocument.DefaultPageSettings.PrinterResolution = new PrinterResolution
                         {
-                            X = 1200,
-                            Y = 1200
+                            X = 2400,
+                            Y = 2400
                         };
 
                         printDialog.Document = printDocument;

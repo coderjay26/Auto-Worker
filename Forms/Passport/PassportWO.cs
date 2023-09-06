@@ -9,33 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Auto_Worker.Forms._2x2
+namespace Auto_Worker.Forms.Passport
 {
-    public partial class TwoW : Form
+    public partial class PassportWO : Form
     {
-        private Bitmap bmp;
-        public TwoW()
+        Bitmap _bitmap;
+        public PassportWO()
         {
             InitializeComponent();
-        }
-
-        private void textBoxName_TextChanged(object sender, EventArgs e)
-        {
-            ChangeName(textBoxName.Text);
-        }
-        void ChangeName(string name)
-        {
-            labelBtn.Text = name;
-            labelBtn1.Text = name;
-            labelBtn2.Text = name;
-            labelBtn3.Text = name;
-        }
-        void ChangeImage(Image image)
-        {
-            picture1.Image = new Bitmap(image);
-            pictureBox2.Image = new Bitmap(image);
-            pictureBox3.Image = new Bitmap(image);
-            pictureBox4.Image = new Bitmap(image);
         }
 
         private void iconButton1_Click(object sender, EventArgs e)
@@ -50,20 +31,22 @@ namespace Auto_Worker.Forms._2x2
                 }
             }
         }
-
-        private void printImage_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        void ChangeImage(Image image)
         {
-            e.Graphics.DrawImage(bmp, 0, 0);
+            picture1.Image = image;
+            pictureBox2.Image = image;
+            pictureBox3.Image = image;
+            pictureBox4.Image = image;
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            bmp = new Bitmap(toPrint1.Width, toPrint1.Height);
-            using(Graphics graphics = Graphics.FromImage(bmp))
+            _bitmap = new Bitmap(toPrint1.Width, toPrint1.Height);
+            using (Graphics graphics = Graphics.FromImage(_bitmap))
             {
                 graphics.CopyFromScreen(toPrint1.PointToScreen(Point.Empty), Point.Empty, toPrint1.Size);
             }
-            ImageUtility.PrintImage(bmp);
+            ImageUtility.PrintImage(_bitmap);
         }
     }
 }

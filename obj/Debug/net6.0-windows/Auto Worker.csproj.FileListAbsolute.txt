@@ -28,3 +28,4 @@ D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms._2x2.TwoWO.reso
 D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms.PopUp.Croping.resources
 D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Cropper.CropImageDialog.resources
 D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms._1x1.OnebyOne.resources
+D:\GitHub\Auto Worker\obj\Debug\net6.0-windows\Auto_Worker.Forms.Passport.PassportWO.resources

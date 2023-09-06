@@ -57,7 +57,7 @@ namespace Auto_Worker.Forms._2x2
 
         private void printImage_PrintPage(object sender, PrintPageEventArgs e)
         {
-            e.Graphics.DrawImage(bmp,0,0);
+            //e.Graphics.DrawImage(bmp,0,0);
         }
     }
 }
